@@ -124,6 +124,6 @@ On the practical side, I want to re-learn D3. All these awesome
 visualizations made with this tool makes it too attractive for me to leave
 behind. So, it will be my main tool for practice.
 
----
+* * *
 
 I hope the next visualization journey will be fun!

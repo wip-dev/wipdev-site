@@ -117,7 +117,7 @@ In Racket, however, the simple syntax leads to having only one way to do
 things: every operator/function is prefix and you can nest them as deep as
 you want because everything is already enclosed in parentheses.
 
----
+* * *
 
 Remember that opinions towards syntax are just opinions: they are subjective.
 I do like that syntax and enjoy programming with it in the course. I am not

@@ -183,7 +183,7 @@ list(map(lambda x: x + 1, [1, 2, 3, 4, 5]))
 I personally like JavaScript's arrow function syntax for writing anonymous
 functions.
 
----
+* * *
 
 So, this was `map`! The concept behind it is relatively simple but really
 elegant, and it should save you a lot of time and code duplication if you get

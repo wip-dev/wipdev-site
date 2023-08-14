@@ -88,7 +88,7 @@ longer (and obviously harder) than your average Coursera "quiz".
 In short, this course will get you to _think_, and if you are like me, you
 will definitely enjoy that.
 
----
+* * *
 
 As someone with huge interest in learning programming, I found this course so
 informative and fun, and I hope this review encourages other programmers to

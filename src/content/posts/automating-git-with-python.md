@@ -95,7 +95,7 @@ I have this script, and
 - Python: [https://github.com/waseem-medhat/git\_done](https://github.com/waseem-medhat/git_done)
 - R: [https://github.com/waseem-medhat/git\_doneR](https://github.com/waseem-medhat/git_doneR)
 
----
+* * *
 
 That's it! The idea is really simple but kinda cool. I am glad I was able to
 write a script like this in an hour and have a Python workout in the process.

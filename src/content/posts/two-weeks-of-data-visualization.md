@@ -71,6 +71,6 @@ build a _slide deck_ with this tech stack. I know there are different JavaScript
 libraries that make web-based presentations. All I need is to explore them and
 make data presentations.
 
----
+* * *
 
 Hope you enjoyed this colorful post... There is definitely more to come!

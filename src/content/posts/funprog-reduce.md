@@ -162,7 +162,7 @@ Reduce(fn, d_split)
 From there, you could easily work your way forward by abstracting this
 algorithm into a function, or maybe adjust the row names.
 
----
+* * *
 
 That's it for `reduce`! Another interesting functional programming concept,
 and R already has it built in.

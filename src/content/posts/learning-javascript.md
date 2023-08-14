@@ -82,7 +82,7 @@ are constantly updated, in which case you either have to learn on an older
 version of the technology or try to work along with the latest version
 until something blows up.
 
----
+* * *
 
 I believe that combining multiple resources is the best way to learn a skill,
 and that's what I am doing here with JavaScript. If you want to learn it as

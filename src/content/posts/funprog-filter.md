@@ -96,7 +96,7 @@ Let's also not forget that R is meant for data analysis, and `Filter()`
 doesn't work with data frames unless you convert them to a list. But why do
 that when you have indexing-based filtering? or `dplyr`?
 
----
+* * *
 
 That ends our glance over the higher-order `filter` and, more importantly,
 why R programmers don't need it.

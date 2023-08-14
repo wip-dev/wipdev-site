@@ -59,7 +59,7 @@ rest of the code and can also be connected to other parts or integrated into
 the main app somehow. It is one of the things I am looking forward to
 learning currently.
 
----
+* * *
 
 The whole Shiny ecosystem is growing on me, and although I explained how it
 is relatively challenging for a non-developer, I felt rewarded after

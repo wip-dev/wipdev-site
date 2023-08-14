@@ -82,7 +82,7 @@ for reading convenience. I do have it on GitHub, though:
 - R: [https://github.com/waseem-medhat/git\_doneR](https://github.com/waseem-medhat/git_doneR)
 - Python: [https://github.com/waseem-medhat/git\_done](https://github.com/waseem-medhat/git_done)
 
----
+* * *
 
 That sums up my quick exercise of automating Git in R and making it an
 executable script to run from the command line.

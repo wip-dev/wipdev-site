@@ -327,7 +327,7 @@ tibble(mtcars) %>% filter(am == 1) %>% group_by(cyl) %>% summarize(mmpg = mean(m
   the power of `dplyr` (and also is its main "selling" point) is how the syntax
   is, like I said earlier, very English-like in its writing and reading.
 
----
+* * *
 
 We're done playing with the basics of `data.table`! I hope you enjoyed it as
 much as I did.
