@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Serif', sans-serif;
+    color: #223;
 }
 
 code, pre {
@@ -14,31 +15,46 @@ code, pre {
     padding: 5px;
 }
 
-article pre {
+pre {
     line-height: 1.6rem;
     font-size: 1.1rem;
 }
 
 article {
     padding: 100px;
+    width: 1000px;
 }
 
-article img {
+img {
     width: 100%;
+    margin: 0 auto;
 }
 
-article h1 {
+h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-article h2 {
+h2 {
     font-size: 2.2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-article p {
+p, ul, ol {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue;
+}
+
+a:hover {
+    text-decoration: underline;
 }
