@@ -82,6 +82,6 @@ The third is flexibility: that syntax is surprisingly less constraining than usi
 
 To be completely honest with you and myself, I love it, but I'm in what they call the *honeymoon period*. I was happy with the discovery of Lisp when I tried Emacs (elisp) a couple of years ago. Now, I am revisiting Lisp in the form of Clojure this time, and I will try using it for actual web development after I've learned a bit more about Clojure and the functional programming philosophy. Only time will tell if it pans out for me.
 
----
+* * *
 
 Cover photo by XKCD: [https://xkcd.com/297/](https://xkcd.com/297/)

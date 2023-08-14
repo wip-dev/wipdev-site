@@ -55,6 +55,6 @@ I presented my case on why programmers are not as rational as they think. Next, 
 
 That was my perspective on our objectivity as software developers. Let me know what you think, and thanks for reading!
 
----
+* * *
 
 Cover image generated with [Leonardo AI](https://leonardo.ai/)

@@ -1,11 +1,4 @@
----
-title: "The Two Types of Programmers"
-date: 2020-08-08T20:00:56+02:00
-Description: "Food for thought about programming styles and mindsets"
-Tags: ["Coding"]
-Categories: ["Blog"]
-DisableComments: false
----
+# The Two Types of Programmers
 
 There is the programmer who thinks of code as means of getting something done,
 and the other who actually cares about coding in and of itself. The former would
@@ -19,7 +12,7 @@ The answer is _it depends..._ (When is it not?) But here is some food for
 thought about these programming approaches, mostly in the context of statistical
 analysis and/or data science.
 
-# Actually, it is a continuum
+## Actually, it is a continuum
 
 You might categorize these approaches in a binary fashion, but they are better
 thought of as opposite extremes of a continuous scale. On one end lie the purely
@@ -27,7 +20,7 @@ get-it-done guys. On the other end, there are the coding nerds.  With that in
 mind, you'd find out that most people lie somewhere in the middle and never at
 the extremes.
 
-## The practical extreme
+### The practical extreme
 
 Here are people who put the domain problem above all else. Don't worry too much
 about code and just solve the problem. You can even ditch coding altogether and
@@ -39,7 +32,7 @@ worrying about whether or not you put spaces or how long your lines of code are.
 You copied and pasted code multiple times? Fine. Wrote a `for` loop? Fine. Code
 took a couple of minutes to run? Okay.
 
-## The optimal extreme
+### The optimal extreme
 
 Jumping right away to the other side, where code is the center of attention.
 Writing `for` loops is a big no-no: use `purrr::map()` or `apply()`. Refactor
@@ -54,7 +47,7 @@ gibberish. Concise code is usually more readable. Elegant code is its own
 reward! And the seconds (or even milliseconds) you save after optimizing the
 code will add up if the code is rerun a lot.
 
-# Why neither is right
+## Why neither is right
 
 Going all-in on one side means that you give up the advantages of the other.
 If you focus on solving problems, that's perfectly fine. But you might find
@@ -63,7 +56,7 @@ On the other hand, the term "over-engineering" exists for a reason: focusing too
 much on code speed or conciseness might waste time or make the code inaccessible
 to others, because sometimes clever tricks are obscure.
 
-# Moral of the story
+## Moral of the story
 
 Simply put, if you find yourself gravitating towards any of the two extremes,
 try to pull yourself towards the middle. Strive to get the best of both worlds.

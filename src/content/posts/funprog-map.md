@@ -1,11 +1,4 @@
----
-title: "Functional Programming: map"
-date: 2020-09-09T14:36:27+02:00
-Description: ""
-Tags: ["R", "Functional Programming"]
-Categories: ["Tutorials"]
-DisableComments: false
----
+# Functional Programming: map
 
 One of the famous functional programming concepts is
 [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function#R),
@@ -19,10 +12,10 @@ This tutorial will explain `map` in general and give an overview of available
 implementations in R. For a more detailed look, I recommend reading the
 [R for Data Science chapter on iteration](https://r4ds.had.co.nz/iteration.html).
 
-![map](/post/funprog-map_files/map.png)
-(Image source: http://keitheis.github.io/reactive-programming-in-python/)
+![map](https://i.imgur.com/whX7R8m.png)
+(Image source: [http://keitheis.github.io/reactive-programming-in-python/](http://keitheis.github.io/reactive-programming-in-python/))
 
-# What is `map`?
+## What is `map`?
 
 To put it shortly, `map` takes a function and a collection (e.g. list) as input,
 _calls the function on each element of the collection_, then returns as output a
@@ -36,7 +29,7 @@ Let's say that I have:
 Calling `map` with the function `increment` and the number list will give back a
 new list of numbers from 2 to 6.
 
-# Why is it useful?
+## Why is it useful?
 
 Anyone familiar with basic programming concepts should think of `for` loops when
 they want to iterate over a collection. But `for` loops contain too much code
@@ -50,7 +43,7 @@ and [imperative programming](https://en.wikipedia.org/wiki/Imperative_programmin
 where the former says _what_ the programmer wants to do and the latter explains
 to the computer more low-level steps on _how_ to do it.
 
-# How to implement it in R?
+## How to implement it in R?
 
 Using `map`-like functions while using R in a statistics/data science setting
 is almost always about iterating with some function over columns of a data
@@ -129,7 +122,7 @@ iris_means_dbl
 #     5.843333     3.057333     3.758000     1.199333           NA
 ```
 
-# Anonymous functions
+## Anonymous functions
 
 Sometimes the function you want to map over columns is not already defined
 with a name. In this case, you have to write your own function. But instead
@@ -169,7 +162,7 @@ map_lgl(iris,
 The anonymous function syntax here starts with a tilde followed by your own
 function body, using "`.x`" as the argument.
 
-# Bonus: `map` in Python and JavaScript
+## Bonus: `map` in Python and JavaScript
 
 - Python:
 

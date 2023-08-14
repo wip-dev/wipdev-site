@@ -1,26 +1,16 @@
----
-title: "First Steps With Text Analysis"
-date: 2020-07-18T14:30:56+02:00
-Description: "Describing my the beginning of my journey in text analysis and NLP"
-Tags: ["R", "Text Analysis"]
-Categories: ["Blog"]
-DisableComments: false
-math: true
----
+# First Steps With Text Analysis
 
 This is the beginning of experimentation with a new topic: text analysis! I have
 always heard about text analysis or natural language processing (NLP) for quite
 some time, but I never learned anything about it. So, it is about time I got
 started...
 
-# First resource
+## First resource
 
 Since I mostly code in R, it was a natural choice to use it as a platform for my
 learning. The book
 ["Text Mining with R: A Tidy Approach"](https://www.tidytextmining.com/) seemed
 like a good choice for a starting point.
-
-<!-- ![](https://www.tidytextmining.com/images/cover.png) -->
 
 At the time of writing this post, I have completed reading and coding along 4
 chapters that introduced the following topics:
@@ -40,14 +30,14 @@ chapters that introduced the following topics:
 
 - **Network/graph** visualization to explore relationships between words.
 
-# Some output
+## Some output
 
 Let me share some of the nice analysis results that I made. They use almost the
 same code from the book, with a few visual tweaks here and there.
 
-## Sentiment analysis
+### Sentiment analysis
 
-![sentiment](/post/first-steps-with-text-analysis_files/sentiment.png)
+![sentiment](https://i.imgur.com/Jf37N6y.png)
 
 The first one is the result of sentiment analysis of books by dividing the book
 into 80-word sections and calculating the sentiment score of each section. For
@@ -58,9 +48,9 @@ Note that in this basic example, negation is not accounted for. In other words,
 something like "not good" still counts as a positive sentiment because "good"
 does.
 
-## Bigram network
+### Bigram network
 
-![network](/post/first-steps-with-text-analysis_files/network.png)
+![network](https://i.imgur.com/uj4pSEh.png)
 
 Just like text analysis/NLP, network visualization is something I never tried
 before. So, it was nice to try it out here. This here is a simple one that shows
@@ -69,9 +59,9 @@ common co-occurrences between pairs of words (bigrams).
 Unsurprisingly, most bigrams are either first and last names or a single name
 associated with a title like "miss", "dr", or "captain".
 
-## Zipf's law
+### Zipf's law
 
-![zipf](/post/first-steps-with-text-analysis_files/zipf.png)
+![zipf](https://i.imgur.com/TiU1Z7e.png)
 
 This one is interesting. Zipf's law states that in a book or a similar
 collection of words, the second most frequent word is half as frequent as the
@@ -84,9 +74,9 @@ expected from Zipf's law.
 
 P.S. It reminded me of a Vsauce video...
 
-{{< youtube fCn8zs912OE >}}
+<iframe width="862" height="485" src="https://www.youtube.com/embed/fCn8zs912OE" title="The Zipf Mystery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Reflection and goals
+## Reflection and goals
 
 I was able to pick up the basics of text analysis using these few chapters. I
 find it just as interesting as any other data analytic topic. The obvious next

@@ -1,11 +1,4 @@
----
-title: "RStudio Shortcuts (My Favorite)"
-date: 2020-07-31T13:11:27+02:00
-Description: "The most useful RStudio shortucts that I use on a daily basis."
-Tags: ["R"]
-Categories: ["Tutorials"]
-DisableComments: false
----
+# RStudio Shortcuts (My Favorite)
 
 RStudio has always been the most popular place for doing anything R-related:
 scripts, Shiny apps, R Markdown documents, blogs, etc. It has a lot of features
@@ -23,7 +16,7 @@ way of improving workflow. They help make coding faster and less painful
 some of my favorite shortcuts. I have them laid out in a roughly categorized
 manner and also summarized in a single table at the end.
 
-# Find your workflow
+## Find your workflow
 
 Before I start dropping down the shortcuts I wanted to share, I should
 re-emphasize that these are _my_ favorite shortcuts. RStudio has a lot of other
@@ -33,7 +26,7 @@ brings us to the first shortcut:
 
 - `Alt+Shift+k` to show a list of RStudio shortcuts.
 
-# Operator shortcuts
+## Operator shortcuts
 
 The most important pair of shortcuts are those used to insert the assignment and
 pipe operators. If you don't use them, _you should_. Not only do they help with
@@ -43,9 +36,9 @@ good coding practice.
 - Pipe operator (`%>%`) with `Ctrl+Shift+m`
 - Assignment operator (`<-`) with `Alt+-`
 
-![operator shortcuts](/post/rstudio-shortcuts-my-favorite_files/short_operator.gif)
+![operator shortcuts](https://i.imgur.com/GhEoRaS.gif)
 
-# Jumping between panes
+## Jumping between panes
 
 I am one of those people who believe that using the mouse in coding interrupts
 their workflow. So, I try to minimize mouse usage as much as I can. One of the
@@ -59,7 +52,7 @@ ways I do so is by using RStudio shortcuts to switch focus to panes.
 
 There are more focus shortcuts, but these are the one I use a lot.
 
-# Jumping between tabs
+## Jumping between tabs
 
 While I am not a fan of opening lots of tabs, I usually do it in R projects
 because I don't worry about where they lie. If I need a specific tab, I search
@@ -67,9 +60,9 @@ for it very quickly with a shortcut.
 
 - `Ctrl+Shift+.` to search for an open tab.
 
-![operator shortcuts](/post/rstudio-shortcuts-my-favorite_files/short_tabs.gif)
+![operator shortcuts](https://i.imgur.com/Gk6PewC.gif)
 
-# Running code
+## Running code
 
 Sending code to from the editor to the console is something any full-time R
 programmer does hundreds of times a day. Imagine how much time (and pain) is
@@ -87,7 +80,7 @@ a variant of the shortcut that doesn't move the cursor, but this shortcut is
 unbound. So, you can go to the RStudio settings and bind it to whatever key
 combination you like.
 
-# Completion
+## Completion
 
 RStudio's completion engine is really powerful, and I think it is one of the
 best features of RStudio. It is already available for use out of the box, but I
@@ -96,7 +89,7 @@ tweaked some settings to make it even faster.
 - Trigger completion after 2 characters instead of 3.
 - Very tiny delay to make it trigger almost instantly.
 
-![completion](/post/rstudio-shortcuts-my-favorite_files/completion.png)
+![completion](https://i.imgur.com/PSHojFG.png)
 
 Completion is also associated with its own keyboard shortcuts.
 
@@ -108,16 +101,16 @@ Completion is also associated with its own keyboard shortcuts.
 I personally like navigating with `Ctrl+p`/`Ctrl+n` because they are closer to
 home row on the keyboard than the arrow keys.
 
-# Commenting out lines
+## Commenting out lines
 
 This a simple but handy shortcut. You can trigger comments on and off on a line
 or a selection of lines. Very useful for debugging.
 
 - `Ctrl+Shift+c` for triggering comments.
 
-![operator shortcuts](/post/rstudio-shortcuts-my-favorite_files/short_comment.gif)
+![operator shortcuts](https://i.imgur.com/KhLq0r7.gif)
 
-# R Markdown
+## R Markdown
 
 Besides typing text and adding markup, probably the two most common tasks one
 does with R Markdown are adding R code chunks and knitting the documents. Not
@@ -126,7 +119,7 @@ surprisingly, they have their own shortcuts.
 - `Ctrl+Alt+i` to insert an R code chunk.
 - `Ctrl+Shift+k` to knit R Markdown documents.
 
-# Vim mode
+## Vim mode
 
 This is not technically a shortcut or a set of shortcuts. It is a full editing
 mode based on the very powerful text editor Vim. I won't give a Vim tutorial

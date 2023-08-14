@@ -51,7 +51,7 @@ This is the part where I get to be a bit less ranty and more practical, I hope. 
 
 That's it! Hope this was useful to you. Feel free to let me know what you think, and thanks for reading!
 
----
+* * *
 
 Cover image source: [https://www.monkeyuser.com/2017/npm-delivery/](https://www.monkeyuser.com/2017/npm-delivery/)
 

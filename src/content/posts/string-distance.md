@@ -1,11 +1,4 @@
----
-title: "Getting Started with String Distance Metrics"
-date: 2020-08-15T18:08:18+02:00
-Description: "My brief learning experience with string distance metrics and approximate matching"
-Tags: ["R", "Text Analysis"]
-Categories: ["Blog"]
-DisableComments: false
----
+# Getting Started with String Distance Metrics
 
 I took a little digression from Python and NLTK when I discovered the R package
 `stringdist`, which has a collection of functions for string distance
@@ -17,7 +10,7 @@ There was no better reason for me to start diving in right away!
 
 So, here I am sharing some information that I learned.
 
-# Context
+## Context
 
 If you are typing in a search box, the worst (working) implementation would
 search for an _exact_ match of what you are typing: the tiniest typo would
@@ -32,12 +25,12 @@ level-up from exact matching, but are still simpler than machine learning models
 that are used in actual search engines and might include other
 features to improve search results.
 
-# Types of distance metrics
+## Types of distance metrics
 
 According to the paper, there are 3 major types of algorithms for calculating
 distance. I will glance over them in this section.
 
-## Edit-based distance
+### Edit-based distance
 
 Algorithms in this category calculate the distance between two strings based on
 the number of edits of one string that are required to match another string.
@@ -56,7 +49,7 @@ insertions and deletions. They also differ in the range of possible values.
 stringdist("foo",  "boo",   method = "lcs") # 2
 ```
 
-## q-gram distance
+### q-gram distance
 
 In the context of such algorithms, q-gram is simply a string of length q. So, a
 q-gram-based method takes its input strings and computes corresponding q-grams.
@@ -70,7 +63,7 @@ uncommon q-grams. You could guess that it ranges from 0 to 1.
 stringdist("leia", "leela", method = "jaccard", q = 2) # 0.8333
 ```
 
-## Heuristic distance
+### Heuristic distance
 
 Two methods were mentioned in the paper: the Jaro distance and its extension,
 the Jaro-Winkler distance. These methods are actually developed to account for
@@ -85,7 +78,7 @@ They range from 0 to 1, where 0 is a perfect match.
 stringdist("comonality", "commonality", method = "jw") # 0.0303
 ```
 
-# Application
+## Application
 
 The use of such methods is mainly a _lookup_ function: input string(s) is
 searched into another set, the dictionary, for matches. A function like

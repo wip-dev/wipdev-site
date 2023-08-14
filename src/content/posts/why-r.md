@@ -1,11 +1,4 @@
----
-title: "Why R (Biostatistician's version)"
-date: 2020-07-13T22:56:09+02:00
-Description: "This post describes why R is a good tool for biostatistics"
-Tags: ["R"]
-Categories: ["Tutorials"]
-DisableComments: false
----
+# Why R (Biostatistician's version)
 
 Contrary to the majority of R content which is directed towards data science and
 related _business_ domains, this post is in the context of _biostatistics_.  So,
@@ -13,9 +6,9 @@ if you are a biostatistician (working or aspiring) let me explain why I think R
 is a good investment of your time. I don't assume you have any prior knowledge
 about programming, so I will provide some information about it in broad strokes.
 
-![rstudio-windows](/post/why-r_files/rstudio-windows.png)
+![rstudio-windows](https://i.imgur.com/hC1TlS1.png)
 
-# Versatile
+## Versatile
 
 Most biostatisicians I know in academia use some combination of SPSS, MedCalc,
 PASS, and/or Excel for their work. Arguably, all these tools can be replaced
@@ -31,7 +24,7 @@ learning algorithms and neural networks. There is even a
 applications that can interactively present any model or process made in the
 backend with R.
 
-# Educational
+## Educational
 
 Using R (versus graphical statistical software) does not inherently give you
 more education on statistics and modeling. But programming shifts your mindset
@@ -51,9 +44,9 @@ from simple linear regression of generated data given some sample size and
 correlation coefficient. The goal was to see the F value's sensitivity to these
 two factors.
 
-![](/post/why-r_files/sim.jpg)
+![sim](https://i.imgur.com/dS2kp3g.jpg)
 
-# Plain text
+## Plain text
 
 Writing code in R or any other language is nothing more than writing plain text,
 which means code can be easily copied, pasted, or manipulated by a text editor.
@@ -70,7 +63,7 @@ variable, and these variables are pulled from a dataset named `women`.
 lm(height ~ weight, data = women)
 ```
 
-# Reproducible
+## Reproducible
 
 This is a very important strength of programming, and it is underutilized in
 many domains of medical research due to the lack of education and settling for
@@ -85,7 +78,7 @@ procedures in R are done by writing commands, this makes your project file much
 closer to being self-explanatory. You could even add comments on the code to
 clarify certain things if you want.
 
-# Free
+## Free
 
 R is part of the increasingly popular
 [free](https://en.wikipedia.org/wiki/Free_software) and open source software
@@ -96,7 +89,7 @@ proprietary software model in which some person or company controls the source
 code, and no one else is able to obtain it unless it is made public by the
 proprietor(s).
 
-# Supported
+## Supported
 
 A rather unique strength of R is that it is surrounded by a big and active
 community that are passionate about it and helpful to each other and to

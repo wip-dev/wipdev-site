@@ -1,11 +1,4 @@
----
-title: "Hands on data.table"
-date: 2020-09-18T18:04:23+02:00
-Description: "A tutorial on the basic syntax of the R package data.table."
-Tags: ["R"]
-Categories: ["Tutorials"]
-DisableComments: false
----
+# Hands on `data.table`
 
 The `data.table` package introduces "enhanced" data frames, concise syntax, and
 fast data processing, so let's learn about it!
@@ -22,12 +15,12 @@ vignette("datatable-intro")
 
 Let's get started!
 
-# Creating `data.table`s
+## Creating `data.table`s
 
 Before working on `data.table` objects, let's explore the methods we can use to
 create one.
 
-## Reading from a file/URL
+### Reading from a file/URL
 
 The function `fread()` allows you to read from local files (e.g. CSV) or
 external URLs.
@@ -36,7 +29,7 @@ external URLs.
 flights <- fread("flights14.csv")
 ```
 
-## Building it manually
+### Building it manually
 
 Creating a `data.table` here is almost identical to creating base R's data
 frames, except that the function is named `data.table()` instead of
@@ -60,7 +53,7 @@ my_dt
 # 6:  c 6 12 18
 ```
 
-## Converting an existing data frame
+### Converting an existing data frame
 
 The function `data.table()` mentioned earlier can be given a data frame to be
 converted to a `data.table` object. It's that simple!
@@ -77,7 +70,7 @@ iris_df <- iris
 setDT(iris_df) # same as `iris_df <- data.table(iris_df)`
 ```
 
-# Subsetting `data.table`s
+## Subsetting `data.table`s
 
 First of all, since a `data.table` are "enhanced" version of the conventional
 data frame, basic functions that work on data frames still work on
@@ -102,7 +95,7 @@ The square-bracket subsetting syntax `[]` is what encloses the special
 `data.table` syntax. So, its basic premise is the same as base R. But
 `data.table` adds a lot of features on that syntax.
 
-## Subsetting rows
+### Subsetting rows
 
 Subsetting rows with `data.table` is exactly the same as base R's subsetting,
 except that _the comma is optional_ if no columns are chosen.
@@ -135,7 +128,7 @@ my_dt[ order(id) ]
 # 6:  c 6 12 18
 ```
 
-## Subsetting columns
+### Subsetting columns
 
 Again, the syntax here is similar to base R. But there are additional points to
 be considered.
@@ -200,7 +193,7 @@ Here is some additional column-subsetting syntax:
   - `my_dt[ , !..variable_with_names ]`
   - `my_dt[ , -..variable_with_names ]`
 
-# Aggregation
+## Aggregation
 
 This is where things get more interesting. Within the same pair of brackets, you
 could actually perform aggregation (summary statistics). Of course, this
@@ -250,7 +243,7 @@ my_dt[ , .N, keyby= id ]
 # 3:  c 1
 ```
 
-# Chaining `data.table` operations
+## Chaining `data.table` operations
 
 So far, we have been discussing operations that have matching "verbs" in `dplyr`
 (e.g. `filter()`, `select()`, `summarize()`, `group_by()`). But there is another
@@ -280,7 +273,7 @@ my_dt[ , .N, keyby = id ][ N > 1 ]
 # 2:  b 3
 ```
 
-# Other perks of `data.table`
+## Other perks of `data.table`
 
 So far, the whole tutorial has been about the syntax of making and working with
 `data.table`s, now let me describe some othe features and advantages for using
@@ -301,7 +294,7 @@ the package:
 - If you haven't noticed, the syntax is quite concise. You could do so much in
   one line.
 
-# My personal comments
+## My personal comments
 
 I think `data.table` is quite an interesting package, and the next points sum up
 my own opinions after getting started with the package along with some

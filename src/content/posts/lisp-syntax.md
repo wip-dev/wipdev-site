@@ -75,7 +75,7 @@ an anonymous function and a list of strings. The anonymous functions appends
 a suffix at the end of each string.
 
 **Note**: If you don't know about `map` and anonymous functions, check out
-[my `map` tutorial](/post/funprog-map/) in which I explain these concepts and
+[my `map` tutorial](/posts/funprog-map/) in which I explain these concepts and
 their applications in R.
 
 ```racket
