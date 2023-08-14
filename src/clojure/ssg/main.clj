@@ -1,16 +1,17 @@
 (ns ssg.main
   (:require [clojure.java.io :refer [file]]
-            [clojure.string :refer [replace]]
+            [clojure.string :as s]
+            [clojure.java.shell :refer [sh]]
             [markdown.core :as md]
             [hiccup2.core :as h]))
 
 (def md->hiccup (comp h/raw md/md-to-html-string))
 
-(defn make-html-path
+(defn post-html-target
   [md-file]
   (-> (.getPath md-file)
-      (#(replace % #"src/content" "public"))
-      (#(replace % #".md" ".html"))))
+      (#(s/replace % #"src/content" "public"))
+      (#(s/replace % #".md" ".html"))))
 
 (defn wrap-post
   [post-html]
@@ -23,13 +24,18 @@
           [:article
            post-html]]])))
 
+(defn make-content
+  [file]
+  {:target (post-html-target file)
+   :content ((comp wrap-post md->hiccup slurp) file)})
+
 (defn -main
   []
-  (let [files        (filter #(not (.isDirectory %))
-                             (file-seq (file "src/content/")))
-        targets      (map make-html-path
-                          files)
-        html-content (map (comp wrap-post md->hiccup slurp)
-                          files)]
-    (println html-content)
-    (map spit targets html-content)))
+  (let [files    (filter #(not (.isDirectory %))
+                         (file-seq (file "src/content/")))
+        contents (map make-content files)]
+    (sh "find" "public/" "-name" "*.html" "-type" "f" "-delete")
+    (println "Removed HTML files in `public/`")
+    (doseq [{target :target content :content} contents]
+      (spit target content)
+      (println "Wrote " target))))

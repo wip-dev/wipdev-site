@@ -1,4 +1,5 @@
 # Welcome to the `wipdev` blog
 
-- Browse some posts, will ya?
-- Let's browse together
+## Blog
+
+- [What got me here](posts/what-got-me-here.html)
