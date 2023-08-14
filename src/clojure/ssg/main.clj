@@ -54,4 +54,5 @@
     (println "Removed HTML files in public/")
     (doseq [{target :target content :content} contents]
       (spit target content)
-      (println "Wrote " target))))
+      (println "Wrote " target)))
+  (shutdown-agents))
