@@ -17,6 +17,11 @@
 - [Starting 100 Days of Code](posts/starting-100-days-of-code.html)
 
 ## Blog
+
 - [Programmers Are Rational — or Are They?](posts/programmers-are-rational.html)
 - [3 Challenges I Faced When Learning to Code](posts/3-challenges-i-faced-when-learning-to-code.html)
 - [What got me here](posts/what-got-me-here.html)
+
+## Old Blog
+
+- [Forest Plot With Heterogeneity Bands](posts/forest-plot-with-heterogeneity-bands.html)
