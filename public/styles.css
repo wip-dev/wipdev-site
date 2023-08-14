@@ -7,6 +7,18 @@
     font-family: 'Noto Serif', sans-serif;
 }
 
+code, pre {
+    font-family: monospace;
+    margin-bottom: 1rem;
+    background: #ddd;
+    padding: 5px;
+}
+
+article pre {
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
 article {
     padding: 100px;
 }
