@@ -9,7 +9,7 @@ wrapped in a Shiny app.
 hosted by PSI and reviewed by statisticians in the organization. Find more
 [here](https://vis-sig.github.io/blog/posts/2020-12-03-wonderful-wednesdays-december-2020/).
 
-# Plot description
+## Plot description
 
 ![forest plot](https://i.imgur.com/Q7dmUsA.png)
 
@@ -38,7 +38,7 @@ overlayed over each other so that more overlapping produces darker areas.
 a subtitle with the interventions and the outcome, respectively. Another
 label is also added to show which direction represents the "positive" effect.
 
-# App description
+## App description
 
 ![forest plot shiny](https://i.imgur.com/OgcgIAX.png)
 
@@ -49,8 +49,8 @@ which provides additional interactive features.
 - Control over the plot dimensions.
 - Help button that shows a guide for interpretation.
 
-# Links
+## Links
 
-- Live version of the Shiny app: [https://waseem-medhat.shinyapps.io/forest_plot_with_bands/](https://waseem-medhat.shinyapps.io/forest_plot_with_bands/)
-- GitHub: [https://github.com/waseem-medhat/forest_plot_with_bands](https://github.com/waseem-medhat/forest_plot_with_bands)
+- Live version of the Shiny app: [https://waseem-medhat.shinyapps.io/forest\_plot\_with\_bands/](https://waseem-medhat.shinyapps.io/forest_plot_with_bands/)
+- GitHub: [https://github.com/waseem-medhat/forest\_plot\_with\_bands](https://github.com/waseem-medhat/forest_plot_with_bands)
 - Wonderful Wednesdays December submissions: [https://vis-sig.github.io/blog/posts/2020-12-03-wonderful-wednesdays-december-2020/](https://vis-sig.github.io/blog/posts/2020-12-03-wonderful-wednesdays-december-2020/)

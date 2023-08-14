@@ -12,10 +12,18 @@ code, pre {
     font-family: monospace;
     margin-bottom: 1rem;
     background: #ddd;
-    padding: 5px;
+}
+
+code {
+    padding: 0 5px;
 }
 
 pre {
+    padding: 10px;
+}
+
+pre code {
+    padding: 0;
     line-height: 1.6rem;
     font-size: 1.1rem;
 }
@@ -37,6 +45,12 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }

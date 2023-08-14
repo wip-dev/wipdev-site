@@ -1,11 +1,4 @@
----
-title: 'Revisiting Data Visualization'
-date: 2020-10-19T01:49:26+02:00
-Description: 'My past and future efforts with data visualization'
-Tags: ['Data Visualization']
-Categories: ['Blog']
-DisableComments: false
----
+# Revisiting Data Visualization
 
 Data visualization is one of the most interesting data science subdomains for
 me, and now I decided to revisit my previous progress and build more on top
@@ -17,36 +10,36 @@ books, participated in a couple of Makeover Monday challenges, and even had a
 will discuss a bit of my past data viz experiments including projects, tools,
 and books.
 
-# Projects
+## Projects
 
 These are directly taken from my [old blog](https://vizplasty.wordpress.com/).
 Head there if you want to look at more detailed descriptions of the projects
 and my thought process.
 
-## Aging America
+### Aging America
 
 This one was my first submission for the Makeover Monday challenge. I managed
 to pull off a customized design to give it a more "infographic" look. One of
 the most notable ideas are using text color to replace the typical color
 legends and that lollipop chart in which the points visually form a line.
 
-![aging america](/post/revisiting-data-visualization_files/aging_america.png)
+![Aging America](https://i.imgur.com/rlK4LKL.png)
 
-## Cost of a night out around the world
+### Cost of a night out around the world
 
 This is more of a fancy-looking Tableau dashboard with interactive
 functionality. It was another Makeover Monday challenge submission.
 
-![cost of a night out](/post/revisiting-data-visualization_files/nightout.png)
+![Cost of a Night Out](https://i.imgur.com/Bqcj3EK.png)
 
-## Sleep requirement pie chart
+### Sleep requirement pie chart
 
 I reworked an already built visualization for this project. The original one
 here was a pie chart. Aside from the fact that pie charts are generally
 despised, this particular one was meaningless and unsuitable for the data to
 be presented.
 
-![pie chart before](/post/revisiting-data-visualization_files/pie_before.webp)
+![Pie Chart Before](https://i.imgur.com/kwHLXtS.png)
 
 I made it into a visualization that has better aesthetics and is more
 representative of the data. Not to mention it is customized to be a bit
@@ -55,15 +48,15 @@ different from the typical chart.
 This is actually one of my favorite projects. I was really satisfied with the
 output.
 
-![pie chart after](/post/revisiting-data-visualization_files/pie_after.webp)
+![Pie Chart After](https://i.imgur.com/FXF43Eu.png)
 
-# Tools
+## Tools
 
 Now that we are done with the colorful part, let's talk about the
 technicalities. I tried a good number of the major visualization tools, and
 here are my thoughts about them...
 
-## R
+### R
 
 Being a statistician who works with R, I did plots in R more than any other
 tool. R has a ton of visualization functionality that I will put into three
@@ -86,7 +79,7 @@ No matter the package, R feels like a good middle ground between high-level
 and low-level. It is code-based and highly extensible, but it doesn't force
 you to work with every shape.
 
-## Tableau
+### Tableau
 
 There is that one time in which I actually left coding and worked with the
 GUI-based Tableau... What was I thinking?
@@ -104,7 +97,7 @@ below it. My frustration with these things was way stronger than my will to
 keep fighting the app or learn to do it in a "smarter" way. Because I believe
 that the smarter way to do this is with _code_.
 
-## D3
+### D3
 
 The JavaScript library D3.js works at a lower level than any visualization
 tool I ever worked with. I learned it about two years ago, but forgot most of
@@ -120,7 +113,7 @@ getting started with D3, you need to pick up the fundamental web
 technologies: HTML, CSS, and JavaScript. Also, I noticed that "real-life" D3
 work is done with a front-end framework (mostly React).
 
-# My future plan
+## My future plan
 
 On the theoretical side, I want to re-read some of the popular books that I
 have already read once, especially Tufte's "The Visual Display of

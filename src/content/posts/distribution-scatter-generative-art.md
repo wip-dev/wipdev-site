@@ -1,18 +1,10 @@
----
-title: "Distribution Scatter (Generative Art)"
-date: 2020-11-17T23:46:54+02:00
-Description: "Showcasing my generative art project named Distribution Scatter"
-Tags: ["Data Visualization", "Generative Art"]
-Categories: ["Projects"]
-DisableComments: false
----
+# Distribution Scatter (Generative Art)
 
 In this generative art project, I used data drawn from different statistical
 distributions to arrange transparent shapes that together form imperfect
 patterns.
 
-![distribution
-scatter](/post/distribution-scatter-generative-art_files/distribution_scatter.png)
+![Distribution Scatter](https://i.imgur.com/Gb6gJzz.png)
 
 There are live versions of these pieces in which the colors change randomly.
 Visit these links to see them:

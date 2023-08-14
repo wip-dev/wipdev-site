@@ -1,11 +1,4 @@
----
-title: 'Shiny and Software Engineering'
-date: 2020-10-05T20:26:32+02:00
-Description: ''
-Tags: ['R', 'Shiny', 'Coding']
-Categories: ['Blog']
-DisableComments: false
----
+# Shiny and Software Engineering
 
 Why does Shiny code feel different from any other R code written for data
 analysis or reporting?
@@ -14,7 +7,7 @@ I contemplated this question since I started learning Shiny, and here I will
 talk about the idea that I have in mind to answer this question. The title
 kind of gives it away, but it still deserves a more detailed explanation.
 
-# My Shiny journey so far
+## My Shiny journey so far
 
 At that time I started my Shiny journey, I already was comfortable writing R
 code in both base and tidyverse "dialects". But then, Shiny felt like a
@@ -28,7 +21,7 @@ feel there are better ways to write Shiny code. I know there are always more
 tricks to discover no matter what kind of code I am writing. But this feeling
 is always the strongest when I am making Shiny apps. So, why is that?
 
-# We don't do software engineering
+## We don't do software engineering
 
 If I were to mention a single reason why Shiny is different or more
 challenging, it is that Shiny is not just _programming_ in general, but also
@@ -38,7 +31,7 @@ I couldn't put my finger on it at first, but when I heard it in an episode of
 the [Shiny Developer Series](https://shinydevseries.com/) podcast, it made a
 lot of sense to me.
 
-{{< youtube kAYcIidygiU >}}
+<iframe width="862" height="485" src="https://www.youtube.com/embed/kAYcIidygiU" title="Episode 1: Shiny&#39;s past and future (RStudio Community webinar)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Yes, R programmers do have an idea about coding best practices. But the truth
 is, for the most part, we don't have to follow them! Most analyses easily fit
@@ -52,7 +45,7 @@ quickly. Try to put everything in a single `app.R` script and you will
 easily find yourself drowning in hundreds of lines of code (assuming, of
 course, you are not making a hello-world kind of app).
 
-# What I do about it
+## What I do about it
 
 Well, the canonical advice for any coding domain is to keep building stuff,
 learn by doing, make mistakes and learn from them, etc. So I am currently

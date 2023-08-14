@@ -1,11 +1,4 @@
----
-title: 'Shiny t-Test App'
-date: 2020-10-03T16:46:23+02:00
-Description: 'Showcasing a shiny app that does the t family of tests.'
-Tags: ['R', 'Shiny', 'Statistics']
-Categories: ['Projects']
-DisableComments: false
----
+# Shiny t-Test App
 
 This is an R/Shiny app that performs the t family of tests (on data uploaded
 by the user) with options that allow more flexible analysis.
@@ -25,11 +18,11 @@ both as GitHub code and live demo from the links below:
 - App (shinyapps.io): https://waseem-medhat.shinyapps.io/shiny-t-test/
 - Code (GitHub): https://github.com/waseem-medhat/shiny-t-test
 
-# Iteration 1
+## Iteration 1
 
-![shiny t-test](/post/shiny-t-test_files/shiny-t-test.gif)
+![shiny t-test](https://i.imgur.com/H8wXloD.gif)
 
-## Feature overview
+### Feature overview
 
 The following points are the features and ideas I took into consideration
 while making the app:
@@ -50,7 +43,7 @@ while making the app:
 - The output of the analysis includes simple descriptive analysis of each
   sample followed by the output of the test itself.
 
-## Purpose
+### Purpose
 
 The ultimate purpose of this app is nothing more than my own Shiny training.
 I simply wanted to build a functional app, and I consider this a first step
@@ -63,7 +56,7 @@ SPSS. When you perform a t-test (or any test in general), the program usually
 expect one of the two forms. I know that in SPSS, the independent t-test
 expects long data and the paired t-test expects wide data.
 
-## Potential improvements
+### Potential improvements
 
 - **Expanded EDA section**: no test should ever be jumped to without a decent amount
   of exploration, more than seeing a histogram and the mean.
@@ -74,14 +67,14 @@ expects long data and the paired t-test expects wide data.
   sidebar layout. I could use more Bootstrap features or throw a theme on
   top. But my goal here was making something functional, not pretty.
 
-# Iteration 2
+## Iteration 2
 
 This one builds further upon the previously written code. It addresses some
 of the points mentioned earlier and adds some more.
 
-![better shiny t-test](/post/shiny-t-test_files/better-shiny-t-test.gif)
+![better shiny t-test](https://i.imgur.com/ghIrutv.gif)
 
-## Added features
+### Added features
 
 - Customizing the UI was the main focus of this version.
   - I used the tabbed layout provided by the `shinydashboard` package coupled
@@ -94,7 +87,7 @@ of the points mentioned earlier and adds some more.
 - Exploratory plots are customizable by the user to toggle the dashed mean
   line or the density curve.
 
-## Potential improvements
+### Potential improvements
 
 - **Assumption-checking**: this is one of the points I mentioned about
   iteration 1 but didn't address.
