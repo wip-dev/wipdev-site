@@ -1,4 +1,4 @@
-# Welcome to the `wipdev` blog
+# Welcome to my blog!
 
 ## Clojure vs JavaScript
 
