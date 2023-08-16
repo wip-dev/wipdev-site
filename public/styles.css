@@ -32,9 +32,10 @@ pre code {
     border-radius: 10px;
 }
 
-article {
+main {
     padding: 100px;
     width: 1000px;
+    margin: 0 auto;
 }
 
 img {
@@ -60,7 +61,8 @@ h3 {
 }
 
 p, ul, ol {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
 }
 

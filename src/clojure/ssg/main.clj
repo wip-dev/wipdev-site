@@ -3,7 +3,8 @@
             [clojure.string :as s]
             [clojure.java.shell :refer [sh]]
             [markdown.core :as md]
-            [hiccup2.core :as h]))
+            [hiccup2.core :as h]
+            [ssg.head :refer [page-head]]))
 
 (defn md->hiccup
   "Given a Markdown string,
@@ -26,16 +27,9 @@
   (str "<!DOCTYPE html>"
        (h/html
         [:html
-         [:head
-          [:link {:rel "stylesheet"
-                  :href "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/tokyo-night-dark.min.css"}]
-          [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"}]
-          [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/clojure.min.js"}]
-          [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/js.min.js"}]
-          [:link {:rel "stylesheet"
-                  :href "/styles.css"}]]
+         page-head
          [:body
-          [:article
+          [:main
            post-html]
           [:script {:src "/main.js"}]]])))
 
