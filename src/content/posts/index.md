@@ -19,6 +19,7 @@
 
 **Miscellaneous**
 
+- [Collaboration on GitHub: a Practical Intro](/posts/collaboration-on-github.html)
 - [Programmers Are Rational — or Are They?](/posts/programmers-are-rational.html)
 - [3 Challenges I Faced When Learning to Code](/posts/3-challenges-i-faced-when-learning-to-code.html)
 - [What got me here](/posts/what-got-me-here.html)
