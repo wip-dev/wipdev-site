@@ -20,6 +20,7 @@
 
 **Miscellaneous**
 
+- [Testing a JavaScript "Random Sampler"](/posts/testing-a-javascript-random-sampler.html)
 - [Collaboration on GitHub: a Practical Intro](/posts/collaboration-on-github.html)
 - [Programmers Are Rational — or Are They?](/posts/programmers-are-rational.html)
 - [3 Challenges I Faced When Learning to Code](/posts/3-challenges-i-faced-when-learning-to-code.html)
