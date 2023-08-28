@@ -20,6 +20,7 @@
 
 **Miscellaneous**
 
+- [TypeScript: a Beginner's Perspective](/posts/typescript-a-beginners-perspective.html)
 - [Testing a JavaScript "Random Sampler"](/posts/testing-a-javascript-random-sampler.html)
 - [Collaboration on GitHub: a Practical Intro](/posts/collaboration-on-github.html)
 - [Programmers Are Rational — or Are They?](/posts/programmers-are-rational.html)
