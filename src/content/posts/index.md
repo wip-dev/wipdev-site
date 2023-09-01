@@ -7,6 +7,7 @@
 
 **Overthinking Development** &mdash; we write blogs to share our thoughts. In these articles, I have too many of them.
 
+- [Jack of All Trades](/posts/jack-of-all-trades.html)
 - [Dependencyphobia](/posts/dependencyphobia.html)
 - [I Love/Hate JavaScript](/posts/i-love-hate-js.html)
 - [Pragmatism vs Idealism](/posts/pragmatism-vs-idealism.html)
@@ -21,7 +22,6 @@
 
 **Miscellaneous**
 
-- [Jack of All Trades](/posts/jack-of-all-trades.html)
 - [TypeScript: a Beginner's Perspective](/posts/typescript-a-beginners-perspective.html)
 - [Testing a JavaScript "Random Sampler"](/posts/testing-a-javascript-random-sampler.html)
 - [Collaboration on GitHub: a Practical Intro](/posts/collaboration-on-github.html)
