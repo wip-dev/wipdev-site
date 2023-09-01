@@ -1,6 +1,6 @@
 # Programmers Are Rational — or Are They?
 
-![cover](https://cdn.hashnode.com/res/hashnode/image/upload/v1691613622492/f8cef477-1e17-427d-ba73-d6efb256adef.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+![cover](https://i.imgur.com/dcigENw.jpg)
 
 Computers are mindless. We give them precise orders to follow using code. Our studying of programming is full of logic and possibly even math and science for some people. There are technical and business goals and constraints that inform our decision-making and problem-solving. So, all of this means that we as programmers are rational beings and capable of making the most calculated of decisions, right?
 
@@ -30,7 +30,7 @@ Actually, I would give some considerable credit to SOS for helping me discover n
 
 The bad side of it, though, is the constant distraction if you give it too much power. If you don't have at least one tool that you're constantly getting better at, then you are only learning the basics of a lot of tools – a "jack of all trades, master of none." Sometimes, I think that I fall into this category. I may have been a pro in one tool if I focused on it all those years. Instead, if I'll build a Dunning-Kruger curve for each tool I know, I am always nowhere near the last part in any of those curves.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691611390322/5bf95f25-4109-4e3f-9f19-338f83c2088a.jpeg align="center")
+![dunnnig-kruger curve](https://imgur.com/c4SkZ09.jpg)
 
 The Dunning-Kruger effect is actually a perfect segue for talking about...
 

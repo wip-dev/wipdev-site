@@ -1,6 +1,6 @@
 # 100 Days of Code: 1-10
 
-![cover](https://cdn.hashnode.com/res/hashnode/image/upload/v1690831082825/c9d9a695-ef5f-4b8a-9f94-5f89f4e8443e.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+![cover](https://imgur.com/LxZkelq.png)
 
 ## Summary
 
@@ -18,7 +18,7 @@ Blog-wise, I wrote a little in some drafts. Nothing complete.
 
 ## Day 2 / 23 Jul
 
-In the blog, I started a new series called Overthinking Development where I, well... You get the idea. I published the first article in that series: [Pragmatism vs Idealism](https://wipdev.hashnode.dev/pragmatism-vs-idealism).
+In the blog, I started a new series called Overthinking Development where I, well... You get the idea. I published the first article in that series: [Pragmatism vs Idealism](/posts/pragmatism-vs-idealism.html).
 
 I also kept going with the Clojure book. It has some interesting data structures that I've yet to understand their practical value. However, one intriguing thing came up in the chapter:
 
@@ -36,7 +36,7 @@ I am starting to think I could try building a frontend with ClojureScript. That 
 
 I took a little break from the written content and started watching a YouTube playlist named [Poetry of Programming](https://www.youtube.com/playlist?list=PLI-mrGTUXmHXeKhy6UGdDxIKwM8L4MTbq) (classy!). Sometimes, it's kinda hard to make big progress during the weekdays, but we still have 96 days so...
 
-Also, I wrote a blog post: [**3 Challenges I Faced when Learning to Code**](https://wipdev.hashnode.dev/3-challenges-i-faced-when-learning-to-code)
+Also, I wrote a blog post: [3 Challenges I Faced when Learning to Code](/posts/3-challenges-i-faced-when-learning-to-code.html)
 
 ## Day 5 / 26 Jul
 
@@ -50,11 +50,11 @@ I wrote a draft article. It's almost complete and should be published the next d
 
 ## Day 7 / 28 Jul
 
-Finished and published the article: [I Love/Hate JavaScript](https://wipdev.hashnode.dev/i-love-hate-javascript). Also, I played around with some Neovim plugins to enable Clojure interactive development. It took me so long to solve an issue that I had no idea where it came from. Almost called it a day without solving it, but I kept debugging until I did it.
+Finished and published the article: [I Love/Hate JavaScript](/posts/i-love-hate-js.html). Also, I played around with some Neovim plugins to enable Clojure interactive development. It took me so long to solve an issue that I had no idea where it came from. Almost called it a day without solving it, but I kept debugging until I did it.
 
 ## Day 8 / 29 Jul
 
-I got the idea of starting another series about Clojure vs JavaScript in which I'll write down my observations as I learn Clojure(Script). Then, I acted and wrote the first article: [Clojure as a Lisp](https://wipdev.hashnode.dev/clojure-as-a-lisp).
+I got the idea of starting another series about Clojure vs JavaScript in which I'll write down my observations as I learn Clojure(Script). Then, I acted and wrote the first article: [Clojure as a Lisp](/posts/clojure-as-a-lisp.html).
 
 That was the 4th article since the beginning of this challenge. That is probably enough for this 10-day span, but I will obviously start any drafts if an idea comes to mind.
 
