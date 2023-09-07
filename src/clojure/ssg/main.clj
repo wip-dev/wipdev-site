@@ -4,7 +4,8 @@
             [clojure.java.shell :refer [sh]]
             [markdown.core :as md]
             [hiccup2.core :as h]
-            [ssg.head :refer [page-head]]))
+            [ssg.head :refer [page-head]]
+            [ssg.menu :refer [page-menu]]))
 
 (defn md->hiccup
   "Given a Markdown string,
@@ -29,8 +30,8 @@
         [:html
          page-head
          [:body
-          [:main
-           post-html]
+          [:main post-html]
+          page-menu
           [:script {:src "/main.js"}]]])))
 
 (defn make-content
