@@ -2,6 +2,7 @@
 
 **Clojure vs JavaScript** &mdash; here is where I take notes of my observations as I compare and contrast the two languages.
 
+- [Standard Library](/posts/standard-library.html)
 - [Functional Programming](/posts/functional-programming.html)
 - [Clojure as a Lisp](/posts/clojure-as-a-lisp.html)
 
