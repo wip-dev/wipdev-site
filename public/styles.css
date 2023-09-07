@@ -13,6 +13,7 @@ body {
 }
 
 aside {
+    background: #fff;
     position: fixed;
     right: 150px;
     top: 100px;
@@ -99,4 +100,40 @@ blockquote {
 blockquote * {
     color: #333;
     line-height: 170%;
+}
+
+@media (max-width: 1000px) {
+    body {
+        padding: 125px 100px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        padding: 0 100px;
+        left: 0;
+        top: 0;
+    }
+
+    aside code {
+        margin-bottom: 0;
+    }
+
+    aside ul {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    p, ul, ol {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
 }
