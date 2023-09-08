@@ -41,6 +41,14 @@ pre code {
     border-radius: 10px;
 }
 
+#logo code {
+    background: white;
+    color: black;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
 main {
     width: min(1000px, calc(100vw - 500px));
 }
@@ -123,7 +131,7 @@ blockquote * {
         top: 0;
     }
 
-    aside code {
+    #logo code {
         margin-bottom: 0;
     }
 
