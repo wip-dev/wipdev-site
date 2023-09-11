@@ -8,6 +8,7 @@
 
 **Overthinking Development** &mdash; we write blogs to share our thoughts. In these articles, I have too many of them.
 
+- [Why I Like Functional Programming](/posts/why-i-like-functional-programming.html)
 - [Jack of All Trades](/posts/jack-of-all-trades.html)
 - [Dependencyphobia](/posts/dependencyphobia.html)
 - [I Love/Hate JavaScript](/posts/i-love-hate-js.html)
@@ -15,6 +16,7 @@
 
 **100 Days of Code** &mdash; here is where I periodically document and reflect on my 100 Days of Code challenge.
 
+- [100 Days of Code: 41-50](/posts/100-days-of-code-41-50.html)
 - [100 Days of Code: 31-40](/posts/100-days-of-code-31-40.html)
 - [100 Days of Code: 21-30](/posts/100-days-of-code-21-30.html)
 - [100 Days of Code: 11-20](/posts/100-days-of-code-11-20.html)
