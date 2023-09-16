@@ -10,7 +10,7 @@ I do appreciate JS for what it did for the web, but from time to time, I just ca
 
 The introduction should let you know I'm aware of how undeniably powerful and pervasive JS is these days. Any JS beginner tutorial will tell you that JS adds dynamic behavior to static websites, but it grew so much beyond that, and now it has a gigantic ecosystem of libraries and frameworks I can't even begin to describe.
 
-Personally, I wasn't even a web developer. I was learning data science on R, but I gradually discovered web technologies used for data science inside and outside of R. *That* is how pervasive the web is. (I wrote [an article about my introduction to the web](https://wipdev.hashnode.dev/what-got-me-here) if you're interested.) In a way, the web has indirectly given me cool tools for data science and helped me with my biostatistics career.
+Personally, I wasn't even a web developer. I was learning data science on R, but I gradually discovered web technologies used for data science inside and outside of R. *That* is how pervasive the web is. (I wrote [an article about my introduction to the web](https://wipdev.netlify.app/posts/what-got-me-here) if you're interested.) In a way, the web has indirectly given me cool tools for data science and helped me with my biostatistics career.
 
 An important point directly related to its popularity is the huge community around it. It goes without saying, but think about the sheer amount of JS content, educational or otherwise, being put online as videos, courses, articles, or podcasts. Not to mention communities on Slack or Discord... Thousands of people learning, building software, and making careers out of JS.
 
@@ -26,7 +26,7 @@ We all saw some form of that (multiple times, I bet). Also, I read somewhere tha
 
 The package/framework ecosystem is rich, no doubt, but the language itself isn't. It does have all the basics of any programming language, and it does have a good set of features for DOM manipulation, HTTP requests, and other web APIs, but that's pretty much it. There are lots of relatively simple things that you have to do by grabbing a package or making your own implementation.
 
-I don't expect a modern language to have me write everything from scratch unless it has a standard library that is rich, reliable, and not full of footguns. Also, I get an itch whenever I have to `npm install` something (and it hurts so much that I would [rant about it in a dedicated article](https://wipdev.hashnode.dev/dependencyphobia)). To make it clear, here is my order of preference:
+I don't expect a modern language to have me write everything from scratch unless it has a standard library that is rich, reliable, and not full of footguns. Also, I get an itch whenever I have to `npm install` something (and it hurts so much that I would [rant about it in a dedicated article](https://wipdev.netlify.app/posts/dependencyphobia)). To make it clear, here is my order of preference:
 
 **Language built-in &gt; framework built-in &gt; external package**
 

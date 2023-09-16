@@ -18,7 +18,7 @@ Also, I started writing drafts for two articles.
 
 ## Day 13 / Aug 3
 
-Wrote a new overthinking article: [Dependencyphobia](https://wipdev.hashnode.dev/dependencyphobia). Also messed around with random Clojure stuff.
+Wrote a new overthinking article: [Dependencyphobia](https://wipdev.netlify.app/posts/dependencyphobia). Also messed around with random Clojure stuff.
 
 ## Day 14 / Aug 4
 
@@ -42,7 +42,7 @@ I have left writing for a couple of days now, so I got back to it and started dr
 
 ## Day 19 / Aug 9
 
-Completed and published an article: [**Programmers Are Rational — or Are They?**](https://wipdev.hashnode.dev/programmers-are-rational-or-are-they) Also, read a little in the book.
+Completed and published an article: [**Programmers Are Rational — or Are They?**](https://wipdev.netlify.app/posts/programmers-are-rational) Also, read a little in the book.
 
 ## Day 20 / Aug 10
 

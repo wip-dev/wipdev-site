@@ -30,7 +30,7 @@ My blog is now almost complete! I successfully migrated the completed blog artic
 
 ## Day 25 / 15 Aug
 
-I completed and published a Clojure vs JS article: [Functional Programming](https://wipdev.hashnode.dev/functional-programming) and made a near-complete version of my blog.
+I completed and published a Clojure vs JS article: [Functional Programming](https://wipdev.netlify.app/posts/functional-programming) and made a near-complete version of my blog.
 
 ## Day 26 / 16 Aug
 
@@ -46,7 +46,7 @@ I started writing a new blog article. Then, I discovered [Exercism](https://exer
 
 ## Day 29 / 19 Aug
 
-Completed and published [Collaboration on GitHub: a Practical Intro](http://wipdev.hashnode.dev/collaboration-on-github). Also, I did some problems in Exercism.
+Completed and published [Collaboration on GitHub: a Practical Intro](https://wipdev.netlify.app/posts/collaboration-on-github). Also, I did some problems in Exercism.
 
 ## Day 30 / 20 Aug
 

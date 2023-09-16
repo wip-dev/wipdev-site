@@ -8,7 +8,7 @@ Write blog articles and learn, well... Clojure!
 
 ## Why Blog?
 
-You could read [this article](https://wipdev.hashnode.dev/what-got-me-here) where I ramble on about past steps in my tech journey and what led me to start this blog. To put it short here, I needed to have some creative freedom to break the relatively dull job routine, and blogging seemed to be a very easy idea to get started right away, especially with Hashnode.
+You could read [this article](https://wipdev.netlify.app/posts/what-got-me-here) where I ramble on about past steps in my tech journey and what led me to start this blog. To put it short here, I needed to have some creative freedom to break the relatively dull job routine, and blogging seemed to be a very easy idea to get started right away, especially with Hashnode.
 
 I could use the blog to document my learnings, like this challenge here. I could also use it to share helpful stuff with the community or just pour my thoughts (actually overthinking) about any tech- or data-related topic that interests me.
 

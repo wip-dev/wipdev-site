@@ -30,7 +30,7 @@ More importantly, development topics are endless in number, and each individual 
 
 To put it less bluntly, it's trying to avoid perfectionism.
 
-I'll be honest and say that, unlike the previous two, this is still a problem for me even after so many years of learning and working. I remember Hadley Wickham (one of the top R package authors) saying that to be able to write good code, you need to write a lot of bad code. I do accept that, but from time to time, it still drives me mad! I even wrote [an article overthinking that dilemma](https://wipdev.hashnode.dev/pragmatism-vs-idealism).
+I'll be honest and say that, unlike the previous two, this is still a problem for me even after so many years of learning and working. I remember Hadley Wickham (one of the top R package authors) saying that to be able to write good code, you need to write a lot of bad code. I do accept that, but from time to time, it still drives me mad! I even wrote [an article overthinking that dilemma](https://wipdev.netlify.app/posts/pragmatism-vs-idealism).
 
 Building a project with perfect design patterns and coding best practices may or may not be impossible. What should matter (for me I guess) is having fun, empowering other people with software, and advancing my career. What you should do is set your own goals and priorities and just focus on achieving them even if you write "bad" code in the process. Easier said than done for some people, myself included of course, but we'll do our best.
 
