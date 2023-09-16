@@ -8,6 +8,7 @@
 
 **Overthinking Development** &mdash; we write blogs to share our thoughts. In these articles, I have too many of them.
 
+- [React Rant (+ Should I Be a Backend Dev?)](/posts/react-rant-should-i-be-a-backend-dev.html)
 - [Why I Like Functional Programming](/posts/why-i-like-functional-programming.html)
 - [Jack of All Trades](/posts/jack-of-all-trades.html)
 - [Dependencyphobia](/posts/dependencyphobia.html)
