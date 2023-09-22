@@ -1,4 +1,4 @@
-# React Rant (+ Should I Be a Backend Dev?)
+# Two Months of Clojure
 
 ![cover](https://i.imgur.com/YghZkHs.png)
 
