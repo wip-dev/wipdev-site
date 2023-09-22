@@ -17,6 +17,7 @@
 
 **100 Days of Code** &mdash; here is where I periodically document and reflect on my 100 Days of Code challenge.
 
+- [100 Days of Code: 51-60](/posts/100-days-of-code-51-60.html)
 - [100 Days of Code: 41-50](/posts/100-days-of-code-41-50.html)
 - [100 Days of Code: 31-40](/posts/100-days-of-code-31-40.html)
 - [100 Days of Code: 21-30](/posts/100-days-of-code-21-30.html)
